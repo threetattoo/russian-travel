@@ -19,7 +19,7 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: rgba(42, 44, 47, .3);
+    background: rgba(42, 44, 47, 1);
     opacity: 0.3;
     transition: opacity 200ms ease-in-out;
     z-index: 1;

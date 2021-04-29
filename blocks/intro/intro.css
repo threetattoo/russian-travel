@@ -1,19 +1,17 @@
-@import url(../intro/__title/intro__title.css);
-@import url(../intro/__text/intro__text.css);
-@import url(../intro/__list/intro__list.css);
-@import url(../intro/__list-item/intro__list-item.css);
-@import url(../intro/__accent/intro__accent.css);
 .intro {
     max-width: 984px;
     margin: 92px auto 92px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        margin: 92px auto 48px 92px;
+        margin: 92px auto 92px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .intro {
+        margin: 92px auto 92px 24px;
     }
 }
 
